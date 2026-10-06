@@ -25,16 +25,16 @@ Photon was developed in part during **TON Society’s Hackers League Hackathon, 
 
 These previews show the original product design. The public snapshot uses system fonts and has its original service integrations disconnected.
 
-## What to explore
+## App features
 
-- **Photo feed and interactions:** full-screen media, reactions, comments, following, sharing, and navigation designed for mobile use.
-- **Profiles and social features:** profile editing, follower lists, personal photo collections, and referral flows.
-- **Content creation:** image selection, cropping, compression, upload progress, and editing flows.
-- **Telegram integration:** launch parameters, Mini App lifecycle, safe areas, viewport handling, back-button behavior, and cloud storage.
-- **Rewards and wallet interfaces:** task progress, reward presentation, and TON Connect components.
-- **Interface details:** animated bottom sheets, gestures, loading states, optimistic updates, and English/Russian localization.
-
-The source preserves the frontend implementation. Some flows depend on a compatible backend, Telegram launch context, or external integrations; those services are not included in this repository.
+- Share photos with captions in a full-screen feed.
+- Like, comment on, and share posts.
+- Create a profile, follow other people, and browse friends’ photos.
+- Organize personal photo collections in a Vibelist.
+- Crop and edit photos before publishing.
+- Invite friends and earn in-app rewards by completing tasks.
+- Connect a TON wallet.
+- Use the app in English or Russian.
 
 ## Technology
 
