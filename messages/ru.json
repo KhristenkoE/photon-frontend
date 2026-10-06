@@ -1,0 +1,359 @@
+{
+  "CreateBottomSheet": {
+    "title": "Что создать",
+    "items": {
+      "Moment": {
+        "title": "Момент",
+        "subtitle": "Что сейчас происходит"
+      },
+      "VibeList": {
+        "title": "Добавить в Vibelist",
+        "subtitle": "Загрузи фотографии того, что любишь."
+      },
+      "Battle": {
+        "title": "Поучаствовать в батле",
+        "subtitle": "Новый батл уже стартовал"
+      },
+      "Wishlist": {
+        "title": "Добавить в Wishlist",
+        "subtitle": "Создай желание или цель"
+      }
+    }
+  },
+  "MomentBottomSheet": {
+    "title": "Момент",
+    "items": {
+      "FromGallery": {
+        "title": "Выбрать из галереи"
+      },
+      "Camera": {
+        "title": "Сфотографировать"
+      }
+    }
+  },
+  "MomentActionBottomSheet": {
+    "title": "Действия",
+    "validationError": "Описание должно содержать не более {max} символов",
+    "items": {
+      "Edit": {
+        "title": "Редактировать",
+        "edited": "Момент успешно обновлен"
+      },
+      "Delete": {
+        "title": "Удалить",
+        "completed": "Момент удален"
+      },
+      "Create": {
+        "title": "Новый момент",
+        "created": "Момент успешно создан",
+        "publishing": "Публикация",
+        "publish": "Опубликовать",
+        "description": "Описание фото",
+        "uploading": "Загрузка"
+      },
+      "ShareToTelegramStory": {
+        "title": "Поделиться в Telegram Stories",
+        "description": "После публикации откроется диалог с Telegram, где ты сможешь поделиться моментом в сторис"
+      }
+    }
+  },
+  "ProfilePage": {
+    "moments": "Моменты",
+    "wishlist": "Wishlist",
+    "followers": "Подписчиков",
+    "following": "Подписок",
+    "emptyBio": "Нет описания профиля — напиши о себе →",
+    "follow": "Подписаться",
+    "unfollow": "Подписка",
+    "shareProfileText": "\nPhoton - это новая соцсеть! Это твой новый способ раскрыться, общаться и получить крипту за свою активность!",
+    "share": "Поделиться",
+    "private": {
+      "title": "Это закрытый профиль",
+      "text": "Пользователь запретил просматривать его"
+    },
+    "momentBanner": {
+      "title": "Создавай моменты",
+      "description": "Делись с друзьями фото и видео твоей жизни",
+      "create": "Создать момент ₊˚⊹"
+    },
+    "edit": {
+      "bio": {
+        "title": "Описание профиля",
+        "save": "Сохранить описание"
+      },
+      "privacySettings": {
+        "title": "Настройки приватности",
+        "profilePermissions": "Кто видит мой профиль",
+        "options": {
+          "private": "Только я",
+          "friends": "Только мои подписчики",
+          "public": "Все"
+        }
+      },
+      "ava": {
+        "title": "Изменить фото",
+        "fromGallery": "Выбрать из галереи",
+        "fromCamera": "Сфотографировать"
+      }
+    }
+  },
+  "VibeListBanner": {
+    "title": "Заполнить Vibelist",
+    "description": "Vibelist - фото-анкета, \nотражающая твою индивидуальность.\nЗагрузи фотографии того, что любишь.\nОни появятся здесь и в ленте.",
+    "buttonText": "Заполнить Vibelist"
+  },
+  "GlobalMessages": {
+    "inProgress": "Скоро откроем \u2014 следи \nза обновлениями"
+  },
+  "WishListBanner": {
+    "title": "Wishlist — это \nпространство \nдля твоих \nжеланий и целей.",
+    "description": "Здесь ты сможешь задуматься о том, \nчего действительно хочешь — и начать \nидти к мечте.",
+    "buttonText": "Заполнить Vibelist"
+  },
+  "Feed": {
+    "Feed": "Лента",
+    "Friends": "Друзья"
+  },
+  "FeedPost": {
+    "comments": "Комментарии",
+    "follow": "Подписаться",
+    "subscription": "Подписка",
+    "likeError": "Произошла ошибка",
+    "noFriendsYet": "Еще нет друзей! :(",
+    "inviteFriends": "Уверены, что это не так! Зовите друзей и подписывайтесь на интересных авторов!",
+    "noNewPostsYet": "Новых постов пока нет",
+    "checkBackLater": "Загляни позже — а пока посмотри, что происходит в общей ленте ✨"
+  },
+  "Navigation": {
+    "commentInputPlaceholder": "Добавить комментарий",
+    "addCommentError": "Не смогли отправить сообщение",
+    "deleteCommentError": "Не смогли удалить сообщение",
+    "hideCommentError": "Не смогли скрыть сообщение",
+    "deleteCommentSuccess": "Комментарий удален",
+    "hideCommentSuccess": "Комментарий скрыт",
+    "deleteComment": "Удалить",
+    "hideComment": "Скрыть",
+    "soon": "Скоро",
+    "emptyCommentError": "Комментарий не может быть пустым",
+    "tooShortCommentError": "Слишком короткий комментарий",
+    "tooLongCommentError": "Слишком длинный комментарий",
+    "noComments": "Нет комментариев, будь первым!"
+  },
+  "EarnPage": {
+    "title": "Заработок",
+    "earnSpark": "Заработать SPARK",
+    "socialSubscriptions": "Подписки на соцсети",
+    "wallet": {
+      "spark": "SPARK",
+      "noFilms": "Пока нет плёнок",
+      "ton": "TON",
+      "connect": "Добавить кошелек",
+      "disconnect_wallet": "Отключить кошелек?",
+      "disconnect": "Отвязать",
+      "connected": "Подключен",
+      "info": "Кошелёк",
+      "balance": "Баланс",
+      "address": "Адрес",
+      "copy": "Копировать",
+      "disconnectConfirm": "Точно отвязать кошелёк?",
+      "disconnectYes": "Да",
+      "disconnectReturn": "Вернуться",
+      "disconnected": "Кошелек отключен",
+      "view": "Просмотр",
+      "copied": "Адрес скопирован",
+      "error": "Не удалось подключить кошелек",
+      "disconnectButton": "Отвязать",
+      "walletSuccessfullyConnected": "Кошелёк успешно привязан",
+      "walletConnectedDescription": "Теперь ты можешь выводить монеты TON из приложения и тратить их как хочешь!",
+      "getReward": "Забрать награду — 20 ✦"
+    },
+    "tasks": {
+      "plurals": {
+        "likes": "{count} лайк",
+        "likes_plural": "{count} лайка",
+        "likes_plural_other": "{count} лайков",
+        "bring_friends": "{count} друг",
+        "bring_friends_plural": "{count} друга",
+        "bring_friends_plural_other": "{count} друзей",
+        "comments": "{count} комментарий",
+        "comments_plural": "{count} комментария",
+        "comments_plural_other": "{count} комментариев",
+        "ad_view": "рекламу",
+        "ad_view_plural": "рекламу",
+        "ad_view_plural_other": "рекламу",
+        "subscribers": "{count} подписчик",
+        "subscribers_plural": "{count} подписчика",
+        "subscribers_plural_other": "{count} подписчиков",
+        "publish_photos": "{count} фото",
+        "publish_photos_plural": "{count} фото",
+        "publish_photos_plural_other": "{count} фото",
+        "subscribe_to_users": "на {count} пользователя",
+        "subscribe_to_users_plural": "на {count} пользователя",
+        "subscribe_to_users_plural_other": "на {count} пользователей",
+        "start_onboarding": "{count} пользователь",
+        "start_onboarding_plural": "{count} пользователя",
+        "start_onboarding_plural_other": "{count} пользователей",
+        "finish_onboarding": "обучение",
+        "finish_onboarding_plural": "обучение",
+        "finish_onboarding_plural_other": "обучение",
+        "share_vibe": "Vibelist",
+        "share_vibe_plural": "Vibelist",
+        "share_vibe_plural_other": "Vibelist",
+        "publish_vibelists": "Vibelist-ом",
+        "publish_vibelists_plural": "Vibelist-ом",
+        "publish_vibelists_plural_other": "Vibelist-ом",
+        "login_streak": "Ежедневная награда",
+        "login_streak_plural": "Ежедневная награда",
+        "login_streak_plural_other": "Ежедневная награда",
+        "subscribe_channel": "на наш Telegram канал",
+        "subscribe_channel_plural": "на наш Telegram канал",
+        "subscribe_channel_plural_other": "на наш Telegram канал",
+        "subscribe_chat": "на Telegram чат сообщества",
+        "subscribe_chat_plural": "на Telegram чат сообщества",
+        "subscribe_chat_plural_other": "на Telegram чат сообщества",
+        "subscribe_x": "на наш X (Twitter)",
+        "subscribe_x_plural": "на наш X (Twitter)",
+        "subscribe_x_plural_other": "на наш X (Twitter)",
+        "subscribe_youtube": "на наш YouTube",
+        "subscribe_youtube_plural": "на наш YouTube",
+        "subscribe_youtube_plural_other": "на наш YouTube",
+        "subscribe_tiktok": "на наш TikTok",
+        "subscribe_tiktok_plural": "на наш TikTok",
+        "subscribe_tiktok_plural_other": "на наш TikTok",
+        "subscribe_instagram": "на наш Instagram",
+        "subscribe_instagram_plural": "на наш Instagram",
+        "subscribe_instagram_plural_other": "на наш Instagram"
+      },
+      "from": "из",
+      "actions": {
+        "likes": "Отправь",
+        "to_likes": "Отправить",
+        "bring_friends": "Приведи",
+        "to_bring_friends": "Привести",
+        "subscribe_to_users": "Подпишись",
+        "to_subscribe_to_users": "Подписаться",
+        "comments": "Отправь",
+        "to_comments": "Отправить",
+        "ad_view": "Посмотри",
+        "to_ad_view": "Посмотреть",
+        "subscribers": "Набери",
+        "to_subscribers": "Набрать",
+        "publish_photos": "Опубликуй",
+        "to_publish_photos": "Опубликовать",
+        "start_onboarding": "Начни",
+        "to_start_onboarding": "Начать",
+        "finish_onboarding": "Заверши",
+        "to_finish_onboarding": "Завершить",
+        "share_vibe": "Поделись",
+        "to_share_vibe": "Поделиться",
+        "publish_vibelists": "Опубликуй",
+        "to_publish_vibelists": "Опубликовать",
+        "login_streak": "",
+        "to_login_streak": "",
+        "subscribe_channel": "Подпишись",
+        "to_subscribe_channel": "Подписаться",
+        "subscribe_chat": "Подпишись",
+        "to_subscribe_chat": "Подписаться",
+        "subscribe_x": "Подпишись",
+        "to_subscribe_x": "Подписаться",
+        "subscribe_youtube": "Подпишись",
+        "to_subscribe_youtube": "Подписаться",
+        "subscribe_tiktok": "Подпишись",
+        "to_subscribe_tiktok": "Подписаться",
+        "subscribe_instagram": "Подпишись",
+        "to_subscribe_instagram": "Подписаться"
+      },
+      "descriptions": {
+        "publish": "Поделись моментом",
+        "likes": "Приятно отправить и получить",
+        "comments": "Поддержи хороших авторов",
+        "ad_view": "Чтобы получить награду",
+        "subscribe_to_users": "Не упусти интересных авторов",
+        "telegramNews": "Подпишись на наш Telegram канал",
+        "telegramChat": "Тут ты можешь обсудить вопросы",
+        "instagram": "Подпишись на Photon",
+        "tiktok": "Подпишись на Photon",
+        "youtube": "Подпишись на Photon",
+        "x": "Подпишись на Photon"
+      },
+      "titles": {
+        "telegramNews": "Наша группа с новостями",
+        "telegramChat": "Telegram чат сообщества",
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "youtube": "Youtube",
+        "x": "X (Twitter)"
+      },
+      "task": {
+        "subscribe_channel": "Подпишись на наш Telegram канал",
+        "subscribe_chat": "Подпишись на Telegram чат сообщества",
+        "subscribe_x": "Подпишись на наш X (Twitter)",
+        "subscribe_youtube": "Подпишись на наш YouTube",
+        "subscribe_tiktok": "Подпишись на наш TikTok",
+        "subscribe_instagram": "Подпишись на наш Instagram",
+        "login_streak": "Подпишись на наш Telegram канал",
+        "start_onboarding": "Начать обучение",
+        "finish_onboarding": "Завершить обучение",
+        "share_vibe": "Перейти к Vibelist",
+        "default": "Выполни задание"
+      },
+      "buttons": {
+        "likes": "Приступить",
+        "bring_friends": "Пригласить",
+        "subscribe_to_users": "Приступить",
+        "subscribe_channel": "Подписаться",
+        "subscribe_chat": "Подписаться",
+        "subscribe_x": "Подписаться",
+        "subscribe_youtube": "Подписаться",
+        "subscribe_tiktok": "Подписаться",
+        "subscribe_instagram": "Подписаться",
+        "start_onboarding": "Начать обучение",
+        "finish_onboarding": "Завершить обучение",
+        "comments": "Приступить",
+        "ad_view": "Смотреть рекламу",
+        "ad_view_more": "Смотреть еще рекламу",
+        "share_vibe": "Перейти к Vibelist",
+        "subscribers": "Добавить контент",
+        "publish_photos": "Сделать фото",
+        "publish_vibelists": "Перейти к Vibelist"
+      },
+      "reward_text": "Получишь {reward} {currency}",
+      "likes_sent": "Лайков отправлено",
+      "subscriptions_made": "Подписок оформлено",
+      "friends_invited": "Друзей приглашено",
+      "viewed_today": "Просмотрено за сегодня",
+      "new_ads_after": "Новые просмотры через",
+      "spark_per_view": "{reward} SPARK за просмотр",
+      "get_reward": "Забрать награду — {reward} ✦"
+    },
+    "filmBanner": {
+      "title": "Скоро ты сможешь купить плёнку за SPARK",
+      "description": "При проявке можно выиграть до 1000 USD в TON"
+    }
+  },
+  "Friends": {
+    "inviteFriendsTitle": "Пригласи друзей",
+    "inviteFriendsDescription": "в будущем тебя ждут бонусы и эксклюзивные возможности",
+    "inviteFriendsButton": "Пригласить",
+    "referrals": "Я пригласил",
+    "followers": "Подписчики",
+    "follows": "Подписки",
+    "referralsTabTitle": "{count, plural, one {# друг} few {# друга} many {# друзей} other {# друзей}}",
+    "followersTabTitle": "{count, plural, one {# подписчик} few {# подписчика} many {# подписчиков} other {# подписчиков}}",
+    "followsTabTitle": "{count, plural, one {# подписка} few {# подписки} many {# подписок} other {# подписок}}",
+    "referralsTabEmptyTitle": "Ещё никто не пришел",
+    "followersTabEmptyTitle": "Пока нет подписчиков",
+    "followsTabEmptyTitle": "Еще никого нет",
+    "followersTabEmptyDescription": "Создавай больше полезного контента и подписчики придут!",
+    "followsTabEmptyDescription": "Попробуй найти интересных авторов в Ленте",
+    "referralsTabEmptyAction": "Пригласить",
+    "followersTabEmptyAction": "Сделать фото",
+    "followsTabEmptyAction": "В Ленту",
+    "copyLinkSuccess": "Ссылка скопирована",
+    "inviteLinkDrawerTitle": "Ссылка для приглашения",
+    "followsTabUnsubscribe": "Отписаться",
+    "inviteLinkDrawerText": "Отправь приглашение другу прямо в Telegram или скопируй ссылку",
+    "inviteLinkDrawerButton": "Отправить через Telegram",
+    "inviteLinkDrawerCopyButton": "Скопировать ссылку"
+  }
+}

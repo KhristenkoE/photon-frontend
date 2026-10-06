@@ -1,0 +1,109 @@
+.drawer-sheet {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  position: relative;
+  /* Override any conflicting styles from the library */
+  z-index: 999999 !important;
+}
+
+/* Target iOS-specific styles */
+@supports (-webkit-touch-callout: none) {
+  .drawer-sheet {
+    /* Force hardware acceleration */
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    /* Ensure proper stacking on iOS */
+    position: relative;
+    z-index: 999999 !important;
+  }
+}
+
+:root {
+  --rsbs-bg: #fff;
+  --rsbs-handle-bg: #ddd;
+  --rsbs-backdrop-bg: rgba(0, 0, 0, 0.3);
+  --rsbs-backdrop-opacity: 1;
+  /* Override the library's default animation duration */
+  --rsbs-overlay-translate-y: 100% !important;
+  --rsbs-overlay-transform-duration: 70ms !important;
+  --rsbs-overlay-touch-y: 0 !important;
+}
+
+[data-rsbs-overlay] {
+  border-top-left-radius: 16px !important;
+  border-top-right-radius: 16px !important;
+  background-color: white !important;
+  z-index: 999999 !important;
+}
+
+[data-rsbs-backdrop] {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  z-index: 999998 !important;
+}
+
+[data-rsbs-root] {
+  pointer-events: none !important;
+}
+
+[data-rsbs-overlay],
+[data-rsbs-backdrop] {
+  pointer-events: auto !important;
+}
+
+/* Slower animations when dismissing */
+[data-rsbs-is-dismissing] [data-rsbs-backdrop],
+[data-rsbs-is-dismissing] [data-rsbs-overlay],
+[data-rsbs-is-dismissing] [data-rsbs-content],
+[data-rsbs-is-dismissing] [data-rsbs-footer],
+[data-rsbs-is-dismissing] [data-rsbs-header] {
+  transition-duration: 200ms !important;
+}
+
+[data-rsbs-overlay][data-rsbs-state='opening'],
+[data-rsbs-overlay][data-rsbs-state='closing'] {
+  transition: transform 70ms ease-out !important;
+}
+
+[data-rsbs-overlay][data-rsbs-state='closing'] {
+  transition-duration: 200ms !important;
+}
+
+[data-rsbs-backdrop][data-rsbs-state='opening'],
+[data-rsbs-backdrop][data-rsbs-state='opened'] {
+  opacity: 1;
+}
+
+.app-bottom-sheet {
+  --rsbs-bg: #fff !important;
+  --rsbs-handle-bg: #ddd !important;
+  --rsbs-max-w: calc(100% - 12px) !important;
+  --rsbs-ml: auto !important;
+  --rsbs-mr: auto !important;
+  --rsbs-overlay-rounded: 16px !important;
+  z-index: 999999 !important;
+}
+
+.app-bottom-sheet [data-rsbs-overlay] {
+  max-width: var(--rsbs-max-w) !important;
+  margin-left: var(--rsbs-ml) !important;
+  margin-right: var(--rsbs-mr) !important;
+  border-top-left-radius: var(--rsbs-overlay-rounded) !important;
+  border-top-right-radius: var(--rsbs-overlay-rounded) !important;
+}
+
+.app-bottom-sheet [data-rsbs-backdrop] {
+  z-index: 1 !important;
+}
+
+[data-rsbs-root] {
+  position: fixed !important;
+  z-index: 999999 !important;
+}
+
+/* Fast animations for opening */
+[data-rsbs-content],
+[data-rsbs-footer],
+[data-rsbs-header] {
+  transition-duration: 70ms !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+}

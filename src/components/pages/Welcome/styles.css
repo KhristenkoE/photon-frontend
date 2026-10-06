@@ -1,0 +1,6 @@
+.welcome-line-bg {
+  background-image: url("data:image/svg+xml,%3Csvg width='393' height='150' viewBox='0 0 393 150' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.4' d='M-63.4453 132.959C-20.6252 80.8511 38.0589 44.3062 103.759 28.1562C132.163 21.1741 160.476 23.8923 179.658 47.794C192.602 63.9239 199.996 87.0409 196.833 107.623C194.695 121.531 185.259 135.894 168.923 138.465C161.748 139.594 159.542 131.098 160.688 125.876C170.058 83.1965 214.756 63.2155 251.41 48.6828C292.193 32.5127 335.857 22.5866 379.211 16.3712C405.024 12.6705 431.721 10.1798 457.833 11.4346C459.335 11.5068 479.876 12.2009 479.347 14.3372' stroke='%23F1E5DE' stroke-width='21' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

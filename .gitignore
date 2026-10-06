@@ -1,0 +1,40 @@
+.idea
+.DS_Store
+.next
+node_modules
+yarn*.log
+coverage
+.env*.local
+certs/
+tsconfig.tsbuildinfo
+.vscode
+.history
+.vercel
+.env
+
+.lighthouseci/
+web-vitals-report/
+
+# vercel
+helm/vercel/temp
+temp-value
+vercel_preview_url.txt
+
+# CF workers
+.wrangler
+
+.cursor/
+.cursor/rules/
+
+tma-mocks/
+# Sentry Config File
+.env.sentry-build-plugin
+
+# Sentry Config File
+.sentryclirc
+
+# Local credentials and deployment output
+.env.*
+!.env-example
+*.pem
+*.key

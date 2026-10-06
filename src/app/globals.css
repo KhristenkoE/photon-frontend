@@ -1,0 +1,232 @@
+@import 'tailwindcss';
+@import 'react-spring-bottom-sheet/dist/style.css';
+
+:root {
+  --font-cygre:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  --background-color: #ffffff;
+  --background-color-2: #f4f4f4;
+  --background-color-3: #fefefe;
+
+  --accent-color: #0b0d1a;
+
+  --text-color: #fffff;
+  --secondary-text-color: #000000;
+  --third-text-color: #a4a4a8;
+
+  --purple-color: #8c7bf6;
+  --purple-light-color: #e3dffa;
+
+  --peach-color: #d27a47;
+  --light-peach-color: #f1e5de;
+  --pale-peach-color: hsl(22, 40%, 91%, 88%);
+
+  --red-color: #f67b7d;
+  --pale-red-color: hsl(359, 100%, 95%, 88%);
+  --other-error-color: #ff4053;
+
+  --box-shadow-1: 0 4px 15px 0 rgb(0 0 0 / 0.1);
+
+  --feed-overlay-z-index: 2;
+  --feed-media-z-index: 1;
+  --feed-ui-z-index: 3;
+  --feed-padding-bottom: 84px;
+
+  --safe-content-area-inset-top: calc(
+    var(--tg-viewport-content-safe-area-inset-top, 0px) +
+      var(--tg-viewport-safe-area-inset-top, 0px)
+  );
+  --safe-content-area-inset-bottom: calc(
+    var(--tg-viewport-content-safe-area-inset-bottom, 0px) +
+      var(--tg-viewport-safe-area-inset-bottom, 0px)
+  );
+  --safe-full-height: calc(
+    var(--screen-height) - var(--safe-content-area-inset-top)
+  );
+
+  --container-x-padding: 16px;
+
+  --toastify-color-success: #28d375;
+
+  --rsbs-backdrop-bg: rgba(0, 0, 0, 0.2);
+}
+
+.Toastify__toast-container {
+  top: var(--safe-content-area-inset-top) !important;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Toastify__toast {
+  border-radius: 16px !important;
+  padding: 16px 20px !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+}
+
+@theme inline {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-accent: var(--accent-color);
+  --color-background: var(--background-color);
+  --color-text: var(--text-color);
+  --color-secondary-text: var(--secondary-text-color);
+  --color-purple-light: var(--purple-light-color);
+  --color-purple-dark: var(--purple-color);
+  --color-other-error: var(--other-error-color);
+  --color-peach: var(--peach-color);
+  --color-light-peach: var(--light-peach-color);
+  --color-pale-peach: var(--pale-peach-color);
+
+  --font-cygre: var(--font-cygre);
+
+  --text-xs10: 11px;
+  --text-xs10--font-weight: 400;
+  --font-xs10--line-height: 14px;
+
+  --text-s20: 13px;
+  --text-s20--font-weight: 400;
+  --text-s20--line-height: 16px;
+
+  --text-s10: 13px;
+  --text-s10--font-weight: 400;
+  --text-s10--line-height: 18px;
+
+  --text-h70: 13px;
+  --text-h70--font-weight: 600;
+  --text-h70--line-height: 16px;
+
+  --text-m10: 15px;
+  --text-m10--font-weight: 400;
+  --text-m10--line-height: 18px;
+
+  --text-h50: 15px;
+  --text-h50--font-weight: 600;
+  --text-h50--line-height: 23px;
+
+  --text-l20: 17px;
+  --text-l20--font-weight: 400;
+  --text-l20--line-height: 22px;
+
+  --text-l10: 17px;
+  --text-l10--font-weight: 400;
+  --text-l10--line-height: 24px;
+
+  --text-h40: 17px;
+  --text-h40--font-weight: 600;
+  --text-h40--line-height: 22px;
+
+  --text-xl10: 21px;
+  --text-xl10--font-weight: 400;
+  --text-xl10--line-height: 26px;
+
+  --text-h60: 13px;
+  --text-h60--font-weight: 500;
+  --text-h60--line-height: 16px;
+
+  --text-h30: 21px;
+  --text-h30--font-weight: 600;
+  --text-h30--line-height: 26px;
+
+  --text-h25: 24px;
+  --text-h25--font-weight: 600;
+  --text-h25--line-height: 28px;
+
+  --text-h20: 28px;
+  --text-h20--font-weight: 700;
+  --text-h20--line-height: 32px;
+
+  --text-h10: 32px;
+  --text-h10--font-weight: 700;
+  --text-h10--line-height: 36px;
+
+  --text-h05: 48px;
+  --text-h05--font-weight: 700;
+  --text-h05--line-height: 54px;
+
+  --spacing: 4px;
+
+  --height-safe-full-height: var(--safe-full-height);
+  --height-screen-height: var(--screen-height);
+
+  --spacing-safe-content-bottom: var(--safe-content-area-inset-bottom);
+  --spacing-safe-content-top: var(--safe-content-area-inset-top);
+}
+
+body {
+  color: var(--foreground-color);
+  background: var(--background-color);
+  font-family: var(--font-cygre) sans-serif;
+  min-height: var(--height-screen-height);
+  max-height: var(--height-screen-height);
+  height: var(--height-screen-height);
+  width: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  box-sizing: border-box;
+}
+
+reach-portal {
+  position: relative;
+  z-index: 10;
+}
+
+.app-bottom-sheet.open [data-rsbs-overlay='true'] {
+  margin: 0 0.375rem var(--tg-content-safe-area-inset-bottom, 1rem);
+  border-radius: 1.5rem;
+}
+
+.app-bottom-sheet.open.custom-content [data-rsbs-header='true'] {
+  padding: 0;
+}
+
+.app-bottom-sheet.open.custom-content [data-rsbs-overlay='true'] {
+  overflow: hidden;
+  z-index: 111;
+}
+
+.app-bottom-sheet-comments [data-rsbs-overlay='true'] {
+  height: 75%;
+}
+
+.app-bottom-sheet-comments-keyboard [data-rsbs-overlay='true'] {
+  height: 75%;
+}
+
+.app-bottom-sheet-comments [data-rsbs-content='true'] {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.ray-bg {
+  background-image: url('../../public/assets/icons/bg/rays.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  button:focus {
+    outline: none;
+  }
+}

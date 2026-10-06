@@ -1,0 +1,347 @@
+{
+  "CreateBottomSheet": {
+    "title": "What to add",
+    "items": {
+      "Moment": {
+        "title": "Moment",
+        "subtitle": "What's happening now"
+      },
+      "VibeList": {
+        "title": "Add to Vibelist",
+        "subtitle": "Upload photos of what you love."
+      },
+      "Battle": {
+        "title": "Participate in a battle",
+        "subtitle": "A new battle has already started"
+      },
+      "Wishlist": {
+        "title": "Add to Wishlist",
+        "subtitle": "Create a wish or goal"
+      }
+    }
+  },
+  "MomentBottomSheet": {
+    "title": "Moment",
+    "items": {
+      "FromGallery": {
+        "title": "Select from gallery"
+      },
+      "Camera": {
+        "title": "Take a photo"
+      }
+    }
+  },
+  "MomentActionBottomSheet": {
+    "title": "Actions",
+    "validationError": "Description must be up to {max} characters",
+    "items": {
+      "Edit": {
+        "title": "Edit",
+        "edited": "Moment updated successfully"
+      },
+      "Delete": {
+        "title": "Delete",
+        "completed": "Moment deleted"
+      },
+      "Create": {
+        "title": "New moment",
+        "created": "Moment created successfully",
+        "publishing": "Publishing",
+        "publish": "Publish",
+        "description": "Image description",
+        "uploading": "Uploading"
+      },
+      "ShareToTelegramStory": {
+        "title": "Share to Telegram Stories",
+        "description": "After publishing, a dialog with Telegram will open, where you can share your moment in stories"
+      }
+    }
+  },
+  "ProfilePage": {
+    "moments": "Moments",
+    "wishlist": "Wishlist",
+    "followers": "Followers",
+    "following": "Following",
+    "emptyBio": "No profile description - write about yourself →",
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "shareProfileText": "\nPhoton is a new social network! Express yourself, meet friends, and earn crypto for being active!",
+    "share": "Share",
+    "private": {
+      "title": "It's a private profile",
+      "text": "The user has prohibited viewing it"
+    },
+    "momentBanner": {
+      "title": "Create moments",
+      "description": "Share photos and videos of your life with friends",
+      "create": "Create moment ₊˚⊹"
+    },
+    "edit": {
+      "bio": {
+        "title": "Profile description",
+        "save": "Save description"
+      },
+      "privacySettings": {
+        "title": "Privacy settings",
+        "profilePermissions": "Who can view my profile",
+        "options": {
+          "private": "Only me",
+          "friends": "Only my followers",
+          "public": "All"
+        }
+      },
+      "ava": {
+        "title": "Change a photo",
+        "fromGallery": "Select from gallery",
+        "fromCamera": "Take a photo"
+      }
+    }
+  },
+  "VibeListBanner": {
+    "title": "Fill Vibelist",
+    "description": "Vibelist - a photo questionnaire reflecting your individuality.\nUpload photos of what you love.\nThey will appear here and in the feed.",
+    "buttonText": "Fill Vibelist"
+  },
+  "GlobalMessages": {
+    "inProgress": "Will be available soon - stay tuned"
+  },
+  "WishListBanner": {
+    "title": "Wishlist is a space for your wishes and goals.",
+    "description": "Here you can think about what you\n really want — and start going towards your dreams.",
+    "buttonText": "Fill Vibelist"
+  },
+  "Feed": {
+    "Feed": "Feed",
+    "Friends": "Friends"
+  },
+  "FeedPost": {
+    "comments": "Comments",
+    "follow": "Follow",
+    "subscription": "Subscription",
+    "likeError": "An error occurred",
+    "noFriendsYet": "No friends yet! :(",
+    "inviteFriends": "We are sure that this is not so! Invite your friends and subscribe to interesting authors!",
+    "noNewPostsYet": "There are no new posts yet",
+    "checkBackLater": "Check back later - but in the meantime, see what's happening in the general feed ✨"
+  },
+  "Navigation": {
+    "commentInputPlaceholder": "Add a comment",
+    "addCommentError": "Failed to send message",
+    "deleteCommentError": "Failed to delete message",
+    "hideCommentError": "Failed to hide message",
+    "deleteCommentSuccess": "Comment deleted",
+    "hideCommentSuccess": "Comment hidden",
+    "deleteComment": "Delete",
+    "hideComment": "Hide",
+    "soon": "Soon",
+    "emptyCommentError": "Comment cannot be empty",
+    "tooShortCommentError": "Comment length is too short",
+    "tooLongCommentError": "Comment length is too long",
+    "noComments": "No comments yet, be the first!"
+  },
+  "EarnPage": {
+    "title": "Earn",
+    "earnSpark": "Earn SPARK",
+    "socialSubscriptions": "Social network subscriptions",
+    "wallet": {
+      "spark": "SPARK",
+      "noFilms": "No films yet",
+      "ton": "TON",
+      "connect": "Add Wallet",
+      "disconnect_wallet": "Disconnect Wallet?",
+      "disconnect": "Disconnect",
+      "connected": "Connected",
+      "info": "Wallet",
+      "balance": "Balance",
+      "address": "Address",
+      "copy": "Copy",
+      "disconnectConfirm": "Are you sure you want to disconnect the wallet?",
+      "disconnectYes": "Yes",
+      "disconnectReturn": "Return",
+      "disconnected": "Wallet disconnected",
+      "view": "View",
+      "copied": "Address copied",
+      "error": "Failed to connect wallet",
+      "disconnectButton": "Disconnect",
+      "walletSuccessfullyConnected": "Wallet successfully connected",
+      "walletConnectedDescription": "Now you can withdraw TON coins from the app and spend them as you like!",
+      "getReward": "Get reward — 20 ✦"
+    },
+    "tasks": {
+      "plurals": {
+        "likes": "{count} like",
+        "likes_plural": "{count} likes",
+        "likes_plural_other": "{count} likes",
+        "bring_friends": "{count} friend",
+        "bring_friends_plural": "{count} friends",
+        "bring_friends_plural_other": "{count} friends",
+        "comments": "{count} comment",
+        "comments_plural": "{count} comments",
+        "comments_plural_other": "{count} comments",
+        "ad_view": "ad",
+        "ad_view_plural": "ad",
+        "ad_view_plural_other": "ad",
+        "subscribers": "{count} follower",
+        "subscribers_plural": "{count} followers",
+        "subscribers_plural_other": "{count} followers",
+        "publish_photos": "{count} photo",
+        "publish_photos_plural": "{count} photos",
+        "publish_photos_plural_other": "{count} photos",
+        "subscribe_to_users": "{count} user",
+        "subscribe_to_users_plural": "{count} users",
+        "subscribe_to_users_plural_other": "{count} users",
+        "start_onboarding": "onboarding",
+        "start_onboarding_plural": "onboarding",
+        "start_onboarding_plural_other": "onboarding",
+        "finish_onboarding": "onboarding",
+        "finish_onboarding_plural": "onboarding",
+        "finish_onboarding_plural_other": "onboarding",
+        "share_vibe": "Go to Vibelist",
+        "share_vibe_plural": "Go to Vibelist",
+        "share_vibe_plural_other": "Go to Vibelist",
+        "publish_vibelists": "Vibelist",
+        "publish_vibelists_plural": "Vibelist",
+        "publish_vibelists_plural_other": "Vibelist",
+        "login_streak": "Daily reward",
+        "login_streak_plural": "Daily reward",
+        "login_streak_plural_other": "Daily reward",
+        "subscribe_channel": "to our Telegram channel",
+        "subscribe_channel_plural": "to our Telegram channel",
+        "subscribe_channel_plural_other": "to our Telegram channel",
+        "subscribe_chat": "the community Telegram chat",
+        "subscribe_chat_plural": "the community Telegram chat",
+        "subscribe_chat_plural_other": "the community Telegram chat",
+        "subscribe_x": "to our X (Twitter)",
+        "subscribe_x_plural": "to our X (Twitter)",
+        "subscribe_x_plural_other": "to our X (Twitter)",
+        "subscribe_youtube": "to our YouTube",
+        "subscribe_youtube_plural": "to our YouTube",
+        "subscribe_youtube_plural_other": "to our YouTube",
+        "subscribe_tiktok": "to our TikTok",
+        "subscribe_tiktok_plural": "to our TikTok",
+        "subscribe_tiktok_plural_other": "to our TikTok",
+        "subscribe_instagram": "to our Instagram",
+        "subscribe_instagram_plural": "to our Instagram",
+        "subscribe_instagram_plural_other": "to our Instagram"
+      },
+      "from": "out of",
+      "actions": {
+        "likes": "Send",
+        "to_likes": "Send",
+        "bring_friends": "Bring",
+        "to_bring_friends": "Bring",
+        "subscribe_to_users": "Follow",
+        "to_subscribe_to_users": "Follow",
+        "comments": "Send",
+        "to_comments": "Send",
+        "ad_view": "Watch",
+        "to_ad_view": "Watch",
+        "subscribers": "Gain",
+        "to_subscribers": "Gain",
+        "publish_photos": "Publish",
+        "to_publish_photos": "Publish",
+        "start_onboarding": "Start",
+        "to_start_onboarding": "Start",
+        "finish_onboarding": "Finish",
+        "to_finish_onboarding": "Finish",
+        "share_vibe": "Share",
+        "to_share_vibe": "Share",
+        "publish_vibelists": "Publish",
+        "to_publish_vibelists": "Publish",
+        "login_streak": "",
+        "to_login_streak": "",
+        "subscribe_channel": "Subscribe",
+        "to_subscribe_channel": "Subscribe",
+        "subscribe_chat": "Join",
+        "to_subscribe_chat": "Join",
+        "subscribe_x": "Subscribe",
+        "to_subscribe_x": "Subscribe",
+        "subscribe_youtube": "Subscribe",
+        "to_subscribe_youtube": "Subscribe",
+        "subscribe_tiktok": "Subscribe",
+        "to_subscribe_tiktok": "Subscribe",
+        "subscribe_instagram": "Subscribe",
+        "to_subscribe_instagram": "Subscribe"
+      },
+      "descriptions": {
+        "publish": "Share a moment",
+        "likes": "Nice to give and receive",
+        "comments": "Support good authors",
+        "ad_view": "To receive a reward",
+        "subscribe_to_users": "Don't miss out on interesting authors",
+        "telegramNews": "Subscribe to our Telegram channel",
+        "telegramChat": "Here you can ask questions",
+        "instagram": "Subscribe to Photon",
+        "tiktok": "Subscribe to Photon",
+        "youtube": "Subscribe to Photon",
+        "x": "Subscribe to Photon"
+      },
+      "titles": {
+        "telegramNews": "Our news group",
+        "telegramChat": "Community Telegram chat",
+        "instagram": "Instagram",
+        "tiktok": "TikTok",
+        "youtube": "YouTube",
+        "x": "X (Twitter)"
+      },
+      "buttons": {
+        "likes": "Get started",
+        "bring_friends": "Invite",
+        "subscribe_to_users": "Get started",
+        "subscribe_channel": "Subscribe",
+        "subscribe_chat": "Subscribe",
+        "subscribe_x": "Subscribe",
+        "subscribe_youtube": "Subscribe",
+        "subscribe_tiktok": "Subscribe",
+        "subscribe_instagram": "Subscribe",
+        "start_onboarding": "Start onboarding",
+        "finish_onboarding": "Finish onboarding",
+        "comments": "Get started",
+        "ad_view": "Watch ads",
+        "ad_view_more": "Watch more ads",
+        "share_vibe": "Go to Vibelist",
+        "subscribers": "Add content",
+        "publish_photos": "Take a photo",
+        "publish_vibelists": "Go to Vibelist",
+        "login_streak": "Come Back Tomorrow"
+      },
+      "reward_text": "You will receive {reward} {currency}",
+      "likes_sent": "Likes sent",
+      "subscriptions_made": "Subscriptions made",
+      "friends_invited": "Friends invited",
+      "viewed_today": "Viewed today",
+      "new_ads_after": "New views in",
+      "spark_per_view": "{reward} SPARK per view",
+      "get_reward": "Claim reward — {reward} ✦"
+    },
+    "filmBanner": {
+      "title": "Soon you will be able to buy film for SPARK",
+      "description": "By participating, you can win up to 1000 USD in TON"
+    }
+  },
+  "Friends": {
+    "inviteFriendsTitle": "Invite friends",
+    "inviteFriendsDescription": "unlock bonuses and exclusive features in the future",
+    "inviteFriendsButton": "Invite",
+    "referrals": "I invited",
+    "followers": "Subscribers",
+    "follows": "Subscriptions",
+    "referralsTabTitle": "{count, plural, one {# friend} other {# friends}}",
+    "followersTabTitle": "{count, plural, one {# subscriber} other {# subscribers}}",
+    "followsTabTitle": "{count, plural, one {# subscription} other {# subscriptions}}",
+    "referralsTabEmptyTitle": "Nobody has <br/> come yet",
+    "followersTabEmptyTitle": "No subscribers yet",
+    "followsTabEmptyTitle": "There is no one yet",
+    "followersTabEmptyDescription": "Create more useful content and subscribers will come!",
+    "followsTabEmptyDescription": "Try to find interesting authors in the Feed",
+    "referralsTabEmptyAction": "Invite",
+    "followersTabEmptyAction": "Take a photo",
+    "followsTabEmptyAction": "To the Feed",
+    "copyLinkSuccess": "Link copied",
+    "inviteLinkDrawerTitle": "Invitation link",
+    "followsTabUnsubscribe": "Unsubscribe",
+    "inviteLinkDrawerText": "Send the invite link directly to a friend or copy the link",
+    "inviteLinkDrawerButton": "Send via Telegram",
+    "inviteLinkDrawerCopyButton": "Copy link"
+  }
+}

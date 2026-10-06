@@ -1,0 +1,7 @@
+{
+  "extends": ["next", "next/core-web-vitals", "next/typescript", "plugin:@tanstack/eslint-plugin-query/recommended"],
+  "plugins": ["prettier", "@tanstack/query"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
